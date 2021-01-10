@@ -1,6 +1,22 @@
-buildscript {
-    repositories {
-        jcenter()
+include ':app'
+
+sourceControl {
+    gitRepository("https://git.frostnerd.com/AndroidUtils/lifecyclekt.git") {
+        producesModule("com.frostnerd.utilskt.lifecyclekt:lifecycle")
+    }
+    gitRepository("https://git.frostnerd.com/AndroidUtils/preferenceskt.git") {
+        producesModule("com.frostnerd.utilskt.preferences:preferences")
+    }
+    gitRepository("https://git.frostnerd.com/AndroidUtils/navigationdraweractivity.git") {
+        producesModule("com.frostnerd.utilskt.navigationdraweractivity:navigationdraweractivity")
+    }
+    gitRepository("https://git.frostnerd.com/AndroidUtils/encrypteddnstunnelproxy.git") {
+        producesModule("com.frostnerd.utilskt.encrypteddnstunnelproxy:encrypteddnstunnelproxy")
+    }
+    gitRepository("https://git.frostnerd.com/AndroidUtils/generalkt.git") {
+        producesModule("com.frostnerd.utilskt.general:general")
+    }
+    gitRepository("https://git.frostnerd.com/AndroidUtils/Adapters.git") {
+        producesModule("com.frostnerd.utilskt.adapters:adapters")
     }
 }
-include ':app'
