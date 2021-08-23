@@ -4,7 +4,7 @@
     <string name="dialog_crashreportingusages_data_2">Dados do dispositivo</string>
     <string name="dialog_crashreportingusages_data_3">Dados do App</string>
     <string name="dialog_crashreportingusages_data_4">Dados do sistema operativo</string>
-    <string name="dialog_crashreportingusages_data_user_1">ID aleatória para rastrear bugs</string>
+    <string name="dialog_crashreportingusages_data_user_1">ID aleatória para rastrear falhas</string>
     <string name="dialog_crashreportingusages_data_device_1">Arquitetura do dispositivo (x86, arm, …)</string>
     <string name="dialog_crashreportingusages_data_device_2">Orientação da tela (retrato, paisagem)</string>
     <string name="dialog_crashreportingusages_data_device_3">Memória livre/usada (RAM)</string>
