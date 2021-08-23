@@ -54,7 +54,7 @@
     <string name="dialog_query_export_message">Por favor, aguarde enquanto as consultas estão sendo exportadas</string>
     <string name="dialog_pin_message">Por favor digite seu PIN.</string>
     <string name="dialog_pin_hint">PIN</string>
-    <string name="dialog_enable_logging">Quer ativar o registo de bugs\? Os registos contêm informações estatísticas, depuração e ações no App. Os registros gerados não serão compartilhados, a menos que você o permita.</string>
+    <string name="dialog_enable_logging">Quer ativar o registo de falhas\? Os registos contêm informações estatísticas, depuração e ações no App. Os registros gerados não serão compartilhados, a menos que você o permita.</string>
     <string name="dialog_crashreporting_title">Relatório automático de falhas</string>
     <string name="dialog_crashreportingusages_title">Dados enviados</string>
     <string name="dialog_crashreportingusages_message">Clique num dos grupos para ver quais dados serão enviados durante as falhas.</string>
@@ -138,8 +138,8 @@
 \n
 \nSe optar por ignorar o aviso, não verá este diálogo novamente. Pode ler mais e obter dicas para resolver isso com o botão abaixo (via um site externo no seu navegador). Clique em Configurações para abrir as Configurações do Android onde pode desativar as otimizações da bateria para o Nebulo.</string>
     <string name="dialog_servicekilled_more_info">Mais informações</string>
-    <string name="dialog_newhostsource_wildcard_info">Pode usar listas de Hosts que fazem uso de domínios Curinga (wildcard).</string>
-    <string name="dialog_newdnsrule_wildcard_info">O Host oferece suporte ao Wildcards (curinga). Use asterisco (*) para qualquer quantidade de caracteres e números, os caracteres especiais exceto o ponto (.) são permitidos. Use dois asteriscos (**) para incluir o ponto (.).</string>
+    <string name="dialog_newhostsource_wildcard_info">Pode usar listas de Hosts que fazem uso de domínios Wildcard (universais).</string>
+    <string name="dialog_newdnsrule_wildcard_info">O Host oferece suporte ao Wildcards (caracteres universais). Use asterisco (*) para qualquer quantidade de caracteres e números, os caracteres especiais exceto o ponto (.) são permitidos. Use dois asteriscos (**) para incluir o ponto (.).</string>
     <string name="dialog_overlaydetected_title">Sobreposição em todo o sistema detectada</string>
     <string name="dialog_overlaydetected_message">Parece haver uma sobreposição em todo o sistema (p.ex., um balão de chat, filtro colorido ou noturno) ativada. Neste caso em maioria dos dispositivos, você não poderá ativar a VPN.
 \n
