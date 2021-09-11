@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="notification_channel_noconnection">Tilkoblingsadvarselskanal</string>
+    <string name="notification_main_title_https">Nebulo (DoH)</string>
+    <string name="notification_main_subtext">%1$d forespørsler så langt</string>
+    <string name="notification_vpnrestart_text">VPN-tjenesten startes snart på nytt</string>
+    <string name="notification_channel_default">Standard kanal</string>
+    <string name="notification_channel_high_priorty">Høy prioritet</string>
+    <string name="notification_simple_text">Nåværende tjener: %1$s</string>
+    <string name="notification_main_title_tls">Nebulo (DoT)</string>
+    <string name="notification_noconnection_title">Ingen tilkobling</string>
+    <string name="notification_vpnrestart_title">Starter VPN-en på nytt</string>
+    <string name="notification_appcrash_title">Nebulo har krasjet</string>
+    <string name="notification_ruleimport_title">DNS-regelimportering</string>
+    <string name="notification_ruleimport_secondarymessage">Forbereder importering …</string>
+    <string name="notification_ruleimport_tertiarymessage">Fullfører importeringen …</string>
+    <string name="notification_ruleexport_title">DNS-regeleksportering</string>
+    <string name="notification_ruleexport_message">Eksporterer regler (%1$s/%2$s)</string>
+    <string name="notification_ruleexport_secondarymessage">Forbereder eksportering …</string>
+    <string name="notification_ruleexportfinished_message">%1$d regler ble eksportert</string>
+    <string name="notification_pin_title">PIN-kode kreves</string>
+    <string name="notification_service_killed_title">Informasjon om batterioptimalisering</string>
+    <string name="notification_service_killed_ignore">Ignorer</string>
+    <string name="notification_service_revoked_message">Klikk her for å starte på nytt</string>
+    <string name="notification_dnsserver_title">Kjører i ikke-VPN-modus</string>
+    <string name="notification_privatednswarning_title">Privat DNS</string>
+    <string name="notification_cronet_failed_title">QUIC-initialisering mislyktes</string>
+</resources>
