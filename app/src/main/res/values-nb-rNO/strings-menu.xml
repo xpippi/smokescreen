@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="menu_main">Appstatus</string>
+    <string name="menu_settings">Innstillinger</string>
+    <string name="menu_querylogging">Loggførte forespørsler</string>
+    <string name="menu_create_shortcut">Lag en tjenersnarvei</string>
+    <string name="menu_rate">Rate</string>
+    <string name="menu_about">Om denne appen</string>
+    <string name="menu_show_on_fdroid">Vis på F-Droid</string>
+</resources>
