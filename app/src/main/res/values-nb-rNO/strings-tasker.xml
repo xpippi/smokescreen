@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="tasker_start_if_running">Start opp også hvis den allerede kjører (Kan kanskje overstyre oppsettet)</string>
+    <string name="tasker_use_custom_server">Spesifiser selvvalgte tjenere</string>
+    <string name="tasker_action">Handling</string>
+    <string name="tasker_start_app_custom_url">Start appen med %1$s (Modus: %2$s)</string>
+    <string name="tasker_start_app_custom_urls">Start appen med %1$s og %2$s (Modus: %3$s)</string>
+</resources>
