@@ -1,2 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="preference_category_general">Generelt</string>
+    <string name="title_language">Språk</string>
+    <string name="summary_language">Endre appens språk</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_start_on_boot">Start ved systemoppstart</string>
+    <string name="summary_start_after_update">Start appen etter at den har blitt oppdatert</string>
+    <string name="summary_excluded_apps_non_vpn">Ekskluder apper fra appen her, for eksempel hvis de ikke klarer å koble til internettet lengre - de valgte appene vil ikke benytte DNS-over-HTTPS eller DNS-over-TLS lengre.
+\n
+\nDette har ingen effekt på ikke-VPN-modus.</string>
+    <string name="title_show_notification_on_lockscreen">Vis på låseskjermen</string>
+    <string name="title_notification_allow_stop">Tillat å stoppe</string>
+    <string name="title_notification_allow_pause">Tillat å sette på pause</string>
+    <string name="title_inform_bad_connection">Informer meg om en dårlig forbindelse</string>
+    <string name="preference_category_cache">Hurtigbufferkontroll</string>
+    <string name="title_dnscache_usedefaulttimes">Standard hurtigbuffertid</string>
+    <string name="title_dnscache_minimum_cache_time">Minste hurtigbuffertid</string>
+    <string name="title_enable_logging">Skru på loggføring</string>
+    <string name="title_advanced_logging">Avansert loggføring</string>
+    <string name="title_delete_all_logs">Slett alle loggføringer</string>
+    <string name="summary_delete_all_logs">Sletter alle loggbøker som er lagret på enheten din</string>
+    <string name="title_catch_other_dns_servers">Avskjær annen DNS-trafikk</string>
+    <string name="title_test_speed_comparison">Tjenerfartsammenligning</string>
+    <string name="preference_category_querylogging">Forespørselsloggføring</string>
+    <string name="title_log_queries">Forespørselsloggføring</string>
+    <string name="summary_export_queries">Eksporter forespørsler som CSV (%1$d forespørsler)</string>
+    <string name="summary_start_on_boot">Start appen når telefonen skrus på</string>
+    <string name="title_start_after_update">Start etter oppdatering</string>
+    <string name="title_excluded_apps">Ekskluderte apper</string>
+    <string name="title_fallback_dns">Intern DNS-server</string>
+    <string name="title_export_settings">Eksporter innstillinger</string>
+    <string name="preference_category_notification">Varsling</string>
+    <string name="title_simple_notification">Enkelt varsel</string>
+    <string name="title_notification_hide_icon">Skjul ikonet</string>
+    <string name="preference_category_pin">PIN-beskyttelse</string>
+    <string name="title_preference_enable_pin">PIN</string>
+    <string name="title_preference_change_pin">Endre PIN-koden</string>
+    <string name="preference_category_logging">Loggføring</string>
+    <string name="title_send_logs">Send loggbøker</string>
+    <string name="title_crashreporting_type">Automatisk krasjrapportering</string>
+    <string name="preference_category_ip">IP-innstillinger</string>
+    <string name="title_enable_ipv6">Skru på IPv6</string>
+    <string name="title_enable_ipv4">Skru på IPv4</string>
+    <string name="title_force_ipv6">Fremtving IPv6</string>
+    <string name="title_force_ipv4">Fremtving IPv4</string>
+    <string name="title_allow_ipv4_traffic">Tillat IPv4-trafikk</string>
+    <string name="title_allow_ipv6_traffic">Tillat IPv6-trafikk</string>
+    <string name="preference_category_network">Nettverk</string>
+    <string name="title_export_queries">Eksporter forespørsler</string>
+    <string name="title_run_without_vpn">Kjør uten VPN</string>
+    <string name="title_local_server_port">Tjenerport</string>
+    <string name="title_iptables_disable_ipv6">Skru av IPv6</string>
+    <string name="title_nonvpn_help_faq">Dokumentasjon</string>
+    <string name="title_dnscache_enabled">Bruk DNS-hurtigbuffer</string>
+    <string name="title_dnscache_keepacrosslaunches">Behold DNS-hurtigbufferen</string>
+    <string name="title_clear_dnscache">Tøm DNS-hurtigbufferen</string>
+    <string name="title_delete_queries">Tøm forespørsler</string>
+    <string name="preference_category_nonvpnmode">Ikke-VPN-modus</string>
+    <string name="title_nonvpn_use_lanip">Bruk enhetens IP i stedet for \'localhost\'</string>
+    <string name="preference_category_iptables">Iptables</string>
+    <string name="title_iptables_mode">Bruk \'iptables\'</string>
+    <string name="title_check_iptables">Let etter \'iptables\'</string>
+    <string name="nonvpn_help_generic_title">Generiske VPN-apper</string>
+    <string name="crashreporting_type_off">Av (Ikke send krasjrapporter)</string>
+</resources>
