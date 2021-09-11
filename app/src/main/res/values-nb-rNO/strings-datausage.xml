@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="dialog_crashreportingusages_data_1">Brukerdata</string>
+    <string name="dialog_crashreportingusages_data_2">Enhetsdata</string>
+    <string name="dialog_crashreportingusages_data_3">Appdata</string>
+    <string name="dialog_crashreportingusages_data_4">Operativsystem-data</string>
+    <string name="dialog_crashreportingusages_data_user_1">Tilfeldig ID som brukes til å spore krasj</string>
+    <string name="dialog_crashreportingusages_data_device_1">Arkitektur (x86, arm, …)</string>
+    <string name="dialog_crashreportingusages_data_device_2">Skjermforhold (Landskap, portrett)</string>
+    <string name="dialog_crashreportingusages_data_device_3">Ledig/brukt minne (RAM)</string>
+    <string name="dialog_crashreportingusages_data_device_4">Ladetilstand (ja/nei)</string>
+    <string name="dialog_crashreportingusages_data_device_5">På nett ved krasjtidspunktet (ja/nei)</string>
+    <string name="dialog_crashreportingusages_data_device_6">Skjermoppløsning</string>
+    <string name="dialog_crashreportingusages_data_device_7">Produsent</string>
+    <string name="dialog_crashreportingusages_data_device_8">Merke</string>
+    <string name="dialog_crashreportingusages_data_device_9">Modell</string>
+    <string name="dialog_crashreportingusages_data_device_10">Språk</string>
+    <string name="dialog_crashreportingusages_data_app_1">Appens starttid</string>
+    <string name="dialog_crashreportingusages_data_app_2">Appversjon</string>
+    <string name="dialog_crashreportingusages_data_app_3">Databaseversjon</string>
+    <string name="dialog_crashreportingusages_data_app_4">DNS-tjenernavn</string>
+    <string name="dialog_crashreportingusages_data_app_5">Hoved-DNS-tjener</string>
+    <string name="dialog_crashreportingusages_data_app_6">Sekundær DNS-tjener</string>
+    <string name="dialog_crashreportingusages_data_os_1">Navn (f.eks. Android)</string>
+    <string name="dialog_crashreportingusages_data_os_2">Versjon (f.eks. 8.1.0)</string>
+    <string name="dialog_crashreportingusages_data_os_3">Kjerneversjon</string>
+    <string name="dialog_crashreportingusages_data_os_4">Rootet (ja/nei)</string>
+</resources>
