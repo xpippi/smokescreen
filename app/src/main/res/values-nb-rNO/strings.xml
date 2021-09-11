@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="windows_querylogging_question">Spørsmål</string>
+    <string name="activity_label_import_queries">Importer forespørsler</string>
+    <string name="activity_label_import_servers">Importer tjener(e)</string>
+    <string name="all_stop">Stopp avspilling</string>
+    <string name="all_start">Begynn</string>
+    <string name="all_pause">Pause</string>
+    <string name="all_resume">Fortsett</string>
+    <string name="all_no">Nei</string>
+    <string name="all_yes">Ja</string>
+    <string name="information">Informasjon</string>
+    <string name="open_app">Åpne app</string>
+    <string name="all_close">Lukk</string>
+    <string name="error_invalid_host">Vennligst skriv inn et gyldig domene</string>
+    <string name="error_invalid_servername">Vennligst angi et navn</string>
+    <string name="error_cannot_open_settings">Kunne ikke åpne systeminnstillinger</string>
+    <string name="main_dnssurveillance_infotext">Vær klar over at DNS-tjeneren du er koblet til, er i stand til å lagre info om hvilke nettsteder du besøker. Sjekk deres respektive personvernerklæringer for mere informasjon.</string>
+    <string name="main_dnssurveillance_privacystatement">Personvernerklæringen til %1$s</string>
+    <string name="quicksettings_stop_text">Stopp Nebulo</string>
+    <string name="quicksettings_start_text">Start Nebulo</string>
+    <string name="theme_mono">Mono</string>
+    <string name="theme_dark">Mørk</string>
+    <string name="theme_blue">Blå</string>
+    <string name="about_share">Del</string>
+    <string name="about_changelog">Endringslogg</string>
+    <string name="about_contact_developer">Kontakt utvikleren</string>
+    <string name="about_telegram_group">Telegram-gruppe</string>
+    <string name="about_privacypolicy">Personvernregler</string>
+    <string name="about_credits">Medvirkende</string>
+    <string name="about_info">Generell informasjon</string>
+    <string name="window_speedtest_runtest">Begynn testen</string>
+    <string name="button_main_dnsrules">DNS-regler</string>
+    <plurals name="window_dnsrules_subtitle">
+        <item quantity="one">%1$s regel</item>
+        <item quantity="other">%1$s regler</item>
+    </plurals>
+    <string name="windows_querylogging_time">Tid</string>
+    <string name="windows_querylogging_type">Type</string>
+    <string name="windows_querylogging_hostsource__user">Brukerregler</string>
+    <string name="windows_querylogging_hostsource__unknown">Ukjent</string>
+    <string name="windows_querylogging_protocol">Protokoll</string>
+    <string name="windows_querylogging_latency">Latens</string>
+    <string name="windows_querylogging_responses">Responser</string>
+    <string name="window_main_protected">Beskyttet!</string>
+    <string name="window_main_unprotected">Ikke beskyttet</string>
+    <string name="window_main_click_to_enable">Klikk for å aktivere.</string>
+    <string name="restart_app">Omstart</string>
+    <string name="window_querylog_information">Informasjon</string>
+    <string name="about_help_faq">Ofte stilte spørsmål</string>
+    <string name="appintro_first_title">Velkommen til Nebulo.</string>
+    <string name="appintro_forth_title">En siste ting</string>
+    <string name="appintro_server_choose_first">Den raskeste</string>
+</resources>
