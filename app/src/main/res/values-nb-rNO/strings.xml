@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="windows_querylogging_question">Spørsmål</string>
     <string name="activity_label_import_queries">Importer forespørsler</string>
     <string name="activity_label_import_servers">Importer tjener(e)</string>
@@ -51,4 +51,80 @@
     <string name="appintro_first_title">Velkommen til Nebulo.</string>
     <string name="appintro_forth_title">En siste ting</string>
     <string name="appintro_server_choose_first">Den raskeste</string>
+    <string name="activity_label_speed_test">Tjenerfartsammenligning</string>
+    <string name="activity_label_enable_logging">Eksporter loggbøker / Skru på loggføring</string>
+    <string name="error_invalid_url">Vennligst skriv inn en gyldig URL</string>
+    <string name="error_invalid_pin">Vennligst skriv inn PIN-koden din</string>
+    <string name="error_webview_missing">WebView-pakken ble ikke funnet; har den blitt fjernet eller er under oppdatering\?</string>
+    <string name="about_app">Denne appen er åpenkildet. Kildekoden kan sees hos &lt;a href=https://nebulo.app/source&gt;nebulo.app/source&lt;/a&gt;.
+\nI tillegg inneholder appen ingen reklamer, og utfører ingen sporing eller datainnsamling om deg.
+\n
+\nVersjon %1$s
+\nByggversjon %2$d
+\nDatabaseversjon %3$d
+\nKrasjrapport-ID: %4$s
+\n
+\n© Daniel Wolf 2019–2021
+\nLisensiert som GPLv3.
+\n&lt;a href=mailto:support@frostnerd.com&gt;support@frostnerd.com&lt;/a&gt;</string>
+    <string name="app_share_text">Heisann, jeg fant denne appen som krypterer dine DNS-forespørsler for å gi deg mere privatliv og sikkerhet. Sjekk den ut her: https://play.google.com/store/apps/details\?id=com.frostnerd.smokescreen</string>
+    <string name="theme_true_black">Ekte svart</string>
+    <string name="about_licenses">Åpenkilde-lisenser</string>
+    <string name="about_help_translating">Hjelp til med å oversette</string>
+    <string name="window_speedtest_information">Jo lavere verdiene er, jo raskere kan Nebulo kommunisere med tjeneren. For eksempel gjør dette nettlesingen din raskere.</string>
+    <string name="error_no_webbrowser_installed">Du har ikke noen installerte apper som kan vise denne lenken</string>
+    <string name="window_dnsrules_customhosts">Tilpassede domener</string>
+    <string name="window_dnsrules_hostalreadyexists">Det er allerede en regel for dette domenet</string>
+    <string name="window_dnsrules_customhosts_message">Definer alle dine tilpassede domener her</string>
+    <string name="window_dnsrules_customhosts_hostsource_rulecount_pending">Regler fra denne kilden: -</string>
+    <string name="window_dnsrules_customhosts_hostsource_rulecount" tools:ignore="PluralsCandidate">Regler fra denne kilden: %1$s (%2$s duplikater er ikke i bruk)</string>
+    <string name="windows_querylogging_search_hint">Søk etter et domene i forespørselsloggen</string>
+    <string name="windows_querylogging_search">Domenesøk</string>
+    <string name="windows_querylogging_used_server">Benyttet tjener</string>
+    <string name="windows_querylogging_hostsource">Kilden til DNS-regelen</string>
+    <string name="window_dnsrules_refresh_sources">Oppfrisk for å importere regler fra kilden</string>
+    <string name="warning_server_currently_unstable">«%1$s»-tjeneren ser ut til å være ustabil akkurat nå.</string>
+    <string name="appintro_second_title">Privatlivet ditt er viktig</string>
+    <string name="app_share_fdroid">Heisann, jeg fant denne appen som krypterer dine DNS-forespørsler for å gi deg mere privatliv og sikkerhet. Sjekk den ut ved å laste den ned her: https://nebulo.app/source#installation</string>
+    <string name="windows_querylogging_create_dnsrule">Lag en DNS-regel for dette domenet</string>
+    <string name="windows_querylogging_dnsrule_created">DNS-regelen har blitt opprettet</string>
+    <string name="windows_querylogging_usedserver_dnsrules">Oppklart av DNS-regler</string>
+    <string name="windows_querylogging_usedserver_cache">Oppklart av hurtigbufferen</string>
+    <string name="window_main_privatedns_info">«Privat DNS» er aktiv, så dine forespørsler er allerede beskyttet. Skru på Nebulo hvis du vil bruke DNS-over-HTTPS eller andre nyttige funksjoner.
+\nFor å skru på Nebulo, må du skru av Privat DNS.</string>
+    <string name="restart_app_for_changes">Start appen på nytt for at endringene skal tre i kraft.</string>
+    <string name="iptables_supported">Gratulerer, enheten din støtter \'iptables\'!</string>
+    <string name="iptables_supported_ipv6_unsupported">\'iptables\' støttes, men IPv6 støttes ikke.</string>
+    <string name="iptables_not_supported">Enheten din støtter ikke \'iptables\'</string>
+    <string name="warning_server_currently_unstable_expanded">«%1$s»-tjeneren ser ut til å være ustabil for øyeblikket, noe som påvirker nettlesingsfarten din. Vurder å bytte til en mer stabil tjener.</string>
+    <string name="appintro_first_description">Nebulo er en app for å beskytte privatlivet ditt og sikre enheten din.
+\n
+\nTa tilbake kontroll over data som din ISP eller andre enheter har behandlet som deres i mange år.</string>
+    <string name="appintro_second_description">Ved å tilføye kryptering til DNS, en av internettets eldste protokoller, er det i dine hender.
+\n
+\nGjør det vanskeligere for ISP-en din å spore deg ved å bruke DNS-over-HTTPS og DNS-over-TLS med Nebulo.</string>
+    <string name="appintro_third_title">Fullt utstyrt for storslagenhet</string>
+    <string name="appintro_third_description">Nebulo inkluderer også massevis av nyttige funksjoner som å overvåke DNS-aktivitet, PIN-beskyttelse, en fartstester, og mye mer.
+\n
+\nUtforsk appen for å oppdage hva fri åpenkildet programvare har å tilby.</string>
+    <string name="appintro_forth_description">Du kan sette opp Nebulo til å brukes som en systemomfattende reklame- og sporingsblokkerer.
+\n
+\nDu kan til og med bruke den sammen med enkelte brannmurapper for å øke din kontroll over ditt privatliv enda mere.</string>
+    <string name="appintro_server_choose_title">Til å begynne med</string>
+    <string name="appintro_server_choose_description">Hva slags type tjener vil du bruke i Nebulo\?</string>
+    <string name="appintro_server_choose_disclaimer">Det finnes tjenere som passer i flere eller sågar alle kategorier. Nebulo velger automatisk den raskeste.</string>
+    <string name="appintro_server_choose_second">En rask tjener, med fokus på personvern</string>
+    <string name="appintro_server_choose_third">En virkelig personvernsfokusert tjener</string>
+    <string name="appintro_server_choose_forth">En tjener som beskytter meg mot skadelige nettsteder og apper</string>
+    <string name="appintro_server_choose_adblock">En tjener som blokkerer reklamer og sporing</string>
+    <plurals name="dnsrule_total_resolve_count">
+        <item quantity="one">%1$d forespørsel har blitt håndtert av DNS-regler så langt</item>
+        <item quantity="other">%1$d forespørsler har blitt håndtert av DNS-regler så langt</item>
+    </plurals>
+    <plurals name="dnsrule_total_resolve_count_block">
+        <item quantity="one">%1$d forespørsel har blitt blokkert så langt</item>
+        <item quantity="other">%1$d forespørsler har blitt blokkert så langt</item>
+    </plurals>
+    <string name="settings_import_failed">Innstillingsimporteringen mislyktes.</string>
+    <string name="settings_import_succeeded">Innstillingsimporteringen var vellykket.</string>
 </resources>
