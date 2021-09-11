@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_build_29_1">Tjenere som blokkerer reklamer, vises nå i ikke-\'Play Store\'-versjoner (inkludert denne!)</string>
+    <string name="changelog_build_29_2">La til AdGuard DNS</string>
+    <string name="changelog_build_41_adblocker_1">La til to nye DNS-regelkilder</string>
+</resources>
