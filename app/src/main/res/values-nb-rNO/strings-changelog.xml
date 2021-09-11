@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="changelog_build_25_2">La til nye DNS-tjenere</string>
+    <string name="changelog_build_41_3">La til nye tjenere</string>
+    <string name="changelog_build_47_5">La til nye tjenere</string>
+    <string name="changelog_build_59_1">La til nye oversettelser</string>
+</resources>
