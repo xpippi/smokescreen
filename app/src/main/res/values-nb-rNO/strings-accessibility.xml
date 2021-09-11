@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="contentdescription_main_infoimage">Informasjons-ikon</string>
+    <string name="contentdescription_main_servericon">Tjener-ikon</string>
+    <string name="contentdescription_main_statusimage">Bilde som indikerer hvorvidt appen kjører</string>
+    <string name="contentdescription_shared_app_icon">App-ikon</string>
+    <string name="contentdescription_clear_search">Tøm søket</string>
+    <string name="contentdescription_start_app">Start appen</string>
+    <string name="contentdescription_stop_app">Stopp appen</string>
+    <string name="hint_searchterm">Søkeuttrykk</string>
+    <string name="hint_search">Søk</string>
+</resources>
