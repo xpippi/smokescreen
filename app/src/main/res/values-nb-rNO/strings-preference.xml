@@ -63,4 +63,5 @@
     <string name="title_check_iptables">Let etter \'iptables\'</string>
     <string name="nonvpn_help_generic_title">Generiske VPN-apper</string>
     <string name="crashreporting_type_off">Av (Ikke send krasjrapporter)</string>
+    <string name="summary_theme">Velger appens tema</string>
 </resources>
