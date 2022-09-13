@@ -6,7 +6,7 @@
     <string name="contentdescription_shared_app_icon">Ikona aplikacji</string>
     <string name="contentdescription_start_app">Uruchom aplikację</string>
     <string name="contentdescription_stop_app">Zatrzymaj aplikację</string>
-    <string name="hint_searchterm">Termin do przeszukania</string>
+    <string name="hint_searchterm">Fraza do znalezienia</string>
     <string name="hint_search">Szukaj</string>
     <string name="contentdescription_clear_search">Wyraźne wyszukiwanie</string>
 </resources>
