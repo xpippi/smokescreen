@@ -11,14 +11,14 @@
     <string name="all_close">Zamknij</string>
     <string name="main_dnssurveillance_infotext">Pamiętaj, że serwer DNS, z którym jesteś połączony, może rejestrować odwiedzane witryny. Sprawdź jego oświadczenie o ochronie prywatności, aby uzyskać więcej informacji.</string>
     <string name="main_dnssurveillance_privacystatement">Oświadczenie o ochronie prywatności %1$s</string>
-    <string name="app_share_text">Cześć, znalazłem aplikację, która szyfruje zapytania DNS, aby zapewnić więcej prywatności i bezpieczeństwa. Zobacz więcej: https://play.google.com/store/apps/details\?id=com.frostnerd.smokescreen</string>
-    <string name="quicksettings_stop_text">Zatrzymaj Nebulo</string>
+    <string name="app_share_text">Cześć, znalazłem aplikację, która szyfruje zapytania DNS, aby zapewnić Ci więcej prywatności i bezpieczeństwa. Zobacz więcej: https://play.google.com/store/apps/details\?id=com.frostnerd.smokescreen</string>
+    <string name="quicksettings_stop_text">Wyłącz Nebulo</string>
     <string name="quicksettings_start_text">Uruchom Nebulo</string>
     <string name="about_share">Udostępnij</string>
     <string name="activity_label_import_queries">Import zapytań</string>
-    <string name="activity_label_import_servers">Import serwera/ów</string>
+    <string name="activity_label_import_servers">Import serwera(-ów)</string>
     <string name="activity_label_speed_test">Porównanie prędkości serwerów</string>
-    <string name="activity_label_enable_logging">Eksport logów/Włączenie logowania</string>
+    <string name="activity_label_enable_logging">Eksport dzienników/Włączenie zapisywania dzienników</string>
     <string name="error_invalid_url">Podaj prawidłowy adres URL</string>
     <string name="error_invalid_pin">Podaj swój PIN</string>
     <string name="error_invalid_servername">Podaj nazwę</string>
@@ -29,12 +29,12 @@
     <string name="about_info">Informacje ogólne</string>
     <string name="about_help_translating">Pomoc w tłumaczeniu</string>
     <string name="window_speedtest_runtest">Rozpocznij test</string>
-    <string name="error_no_webbrowser_installed">Nie posiadasz aplikacji, która mogłaby otworzyć ten link</string>
+    <string name="error_no_webbrowser_installed">Nie posiadasz aplikacji, która mogłaby otworzyć to łącze</string>
     <string name="button_main_dnsrules">Reguły DNS</string>
     <string name="window_dnsrules_customhosts">Własne hosty</string>
     <plurals name="window_dnsrules_subtitle">
         <item quantity="one">%1$s reguła</item>
-        <item quantity="few">%1$s reguł</item>
+        <item quantity="few">%1$s reguły</item>
         <item quantity="many">%1$s reguł</item>
         <item quantity="other">%1$s reguł</item>
     </plurals>
@@ -42,7 +42,7 @@
     <string name="window_dnsrules_customhosts_message">Zdefiniuj własne hosty tutaj</string>
     <string name="window_dnsrules_customhosts_hostsource_rulecount_pending">Reguły z tego źródła: -</string>
     <string name="window_dnsrules_customhosts_hostsource_rulecount" tools:ignore="PluralsCandidate">Reguły z tego źródła: %1$s (%2$s nieużywanych duplikatów)</string>
-    <string name="windows_querylogging_search_hint">Szukaj hosta w logu żądań</string>
+    <string name="windows_querylogging_search_hint">Szukaj hosta w dzienniku zapytań</string>
     <string name="windows_querylogging_search">Wyszukiwanie hostów</string>
     <string name="windows_querylogging_time">Czas</string>
     <string name="windows_querylogging_type">Typ</string>
@@ -59,78 +59,78 @@
     <string name="window_main_privatedns_info">Prywatny DNS jest aktywny, Twoje zapytania są już chronione. Włącz Nebulo, jeśli chcesz używać DNS-over-HTTPS lub innych przydatnych funkcji.
 \nAby włączyć Nebulo, należy wyłączyć Prywatny DNS.</string>
     <string name="about_contact_developer">Kontakt z deweloperem</string>
-    <string name="error_webview_missing">Nie znaleziono pakietu WebView, czy jest on obecnie aktualizowany lub usunięty\?</string>
+    <string name="error_webview_missing">Nie znaleziono paczki WebView, czy jest on obecnie aktualizowany lub usunięty\?</string>
     <string name="error_cannot_open_settings">Nie można otworzyć ustawień systemowych</string>
     <string name="window_main_protected">Chroniony!</string>
     <plurals name="dnsrule_total_resolve_count_block">
-        <item quantity="one">%1$d zapytanie ostało zablokowane do tej pory</item>
-        <item quantity="few">%1$d zapytania zostały zablokowane do tej pory</item>
-        <item quantity="many">%1$d zapytania zostały zablokowane do tej pory</item>
-        <item quantity="other">%1$d zapytania zostały zablokowane do tej pory</item>
+        <item quantity="one">Do tej pory %1$d zapytanie zostało zablokowane</item>
+        <item quantity="few">Do tej pory %1$d zapytania zostały zablokowane</item>
+        <item quantity="many">Do tej pory %1$d zapytań zostało zablokowane</item>
+        <item quantity="other">Do tej pory %1$d zapytań zostało zablokowane</item>
     </plurals>
     <string name="appintro_server_choose_adblock">Serwer, który blokuje reklamy i śledzenie</string>
     <plurals name="dnsrule_total_resolve_count">
-        <item quantity="one">%1$d zapytanie było do tej pory obsługiwane przez reguły DNS</item>
-        <item quantity="few">Do tej pory reguły DNS obsługiwały %1$d zapytania</item>
-        <item quantity="many">%1$d Zapytania były dotychczas obsługiwane przez reguły DNS</item>
-        <item quantity="other">%1$d Zapytania były dotychczas obsługiwane przez reguły DNS</item>
+        <item quantity="one">Do tej pory %1$d zapytanie było obsługiwane przez reguły DNS</item>
+        <item quantity="few">Do tej pory %1$d zapytania były obsługiwane przez reguły DNS</item>
+        <item quantity="many">Do tej pory %1$d zapytań było obsługiwane przez reguły DNS</item>
+        <item quantity="other">Do tej pory %1$d zapytań było obsługiwane przez reguły DNS</item>
     </plurals>
-    <string name="appintro_server_choose_third">Serwer przedstawię skoncentrowany na prywatności</string>
+    <string name="appintro_server_choose_third">Serwer w pełni skupiony na prywatności</string>
     <string name="appintro_server_choose_forth">Serwer, który chroni mnie przed szkodliwymi stronami i aplikacjami</string>
     <string name="appintro_server_choose_first">Najszybszy</string>
     <string name="appintro_server_choose_second">Szybki serwer, z naciskiem na prywatność</string>
     <string name="appintro_server_choose_description">Jakiego rodzaju serwera chcesz używać w Nebulo\?</string>
     <string name="appintro_server_choose_disclaimer">Istnieją serwery, które pasują do wielu lub nawet wszystkich kategorii. Nebulo automatycznie wybierze ten najszybszy.</string>
-    <string name="appintro_forth_description">Nebulo można skonfigurować tak, aby był używany do blokowania reklam i siedzenia w całym systemie.
+    <string name="appintro_forth_description">Nebulo można skonfigurować tak, aby był używany do blokowania reklam i śledzenia w ramach całego systemu.
 \n
 \nJesteś nawet w stanie używać go wraz z niektórymi aplikacjami firewallowymi, aby jeszcze bardziej zwiększyć kontrolę nad swoją prywatnością.</string>
     <string name="appintro_server_choose_title">Najpierw najważniejsze</string>
     <string name="appintro_forth_title">Jeszcze jedno</string>
-    <string name="appintro_third_title">W pełni wyposażony dla wielkości</string>
+    <string name="appintro_third_title">W pełni przygotowany do wielkości</string>
     <string name="appintro_third_description">Nebulo jest wyposażony w wiele przydatnych funkcji, takich jak monitorowanie aktywności DNS, ochrona PIN, test prędkości i wiele innych.
 \n
 \nZapoznaj się z tą aplikacją, aby odkryć, co wolne oprogramowanie open-source ma do zaoferowania.</string>
-    <string name="appintro_second_description">Dzięki dodaniu szyfrowania do DNS, jednego z najstarszych protokołów Internetu, jest on w Twoich rękach.
+    <string name="appintro_second_description">Dzięki dodaniu szyfrowania do zapytań DNS, jednego z najstarszych protokołów Internetu, jest on w Twoich rękach.
 \n
 \nUtrudnij swojemu dostawcy usług internetowych śledzenie Ciebie za pomocą DNS-over-HTTPS i DNS-over-TLS z Nebulo.</string>
     <string name="appintro_second_title">Twoja prywatność ma znaczenie</string>
     <string name="warning_server_currently_unstable">Serwer %1$s wydaje się być teraz niestabilny.</string>
     <string name="appintro_first_title">Witaj w Nebulo.</string>
-    <string name="appintro_first_description">Nebulo to aplikacja chroniąca prywatność i zabezpieczająca urządzenie.
+    <string name="appintro_first_description">Nebulo to aplikacja chroniąca prywatność i zabezpieczająca Twoje urządzenie.
 \n
 \nPrzejmij z powrotem kontrolę nad danymi, które dostawca usług internetowych lub inne podmioty traktują od dłuższego czasu jak swoje.</string>
-    <string name="warning_server_currently_unstable_expanded">Serwer %1$s wydaje się być w tej chwili niestabilny, co wpływa na szybkość przeglądania. Zastanów się przyłączeniem na stabilniejszy serwer.</string>
+    <string name="warning_server_currently_unstable_expanded">Serwer %1$s wydaje się być w tej chwili niestabilny, co wpływa na szybkość przeglądania. Rozważ przełączenie się na stabilniejszy serwer.</string>
     <string name="window_querylog_information">Informacje</string>
     <string name="about_help_faq">Często zadawane pytania</string>
     <string name="iptables_not_supported">Twoje urządzenie nie obsługuje iptables</string>
-    <string name="window_dnsrules_refresh_sources">Odśwież, aby zaimportować reguły ze źródła</string>
-    <string name="iptables_supported">Gratulacje, iptables jest obsługiwany przez twoje urządzenie!</string>
-    <string name="iptables_supported_ipv6_unsupported">Iptables jest obsługiwany, ale IPv6 nie jest obsługiwany.</string>
-    <string name="restart_app_for_changes">Uruchom ponownie aplikację, aby zmiany przyniosły efekt.</string>
+    <string name="window_dnsrules_refresh_sources">Odśwież, aby importować reguły ze źródła</string>
+    <string name="iptables_supported">Gratulacje, iptables jest obsługiwane przez Twoje urządzenie!</string>
+    <string name="iptables_supported_ipv6_unsupported">Iptables jest obsługiwane, ale IPv6 nie jest obsługiwane.</string>
+    <string name="restart_app_for_changes">Uruchom ponownie aplikację, aby zmiany zostały wprowadzone.</string>
     <string name="restart_app">Uruchom ponownie</string>
-    <string name="window_main_unprotected">Nie chroniony</string>
+    <string name="window_main_unprotected">Niechroniony</string>
     <string name="window_main_click_to_enable">Kliknij, aby włączyć.</string>
-    <string name="windows_querylogging_usedserver_cache">Rozwiązane z pamięcią podręczną</string>
-    <string name="windows_querylogging_usedserver_dnsrules">Rozwiązane z regułami DNS</string>
-    <string name="window_speedtest_information">Im niższe wartości, tym szybciej Nebulo jest w stanie komunikować się z serwerem. To na przykład zwiększa szybkość przeglądania stron.</string>
+    <string name="windows_querylogging_usedserver_cache">Rozwiązane za pomocą pamięci podręcznej</string>
+    <string name="windows_querylogging_usedserver_dnsrules">Rozwiązane za pomocą reguł DNS</string>
+    <string name="window_speedtest_information">Im niższe wartości, tym szybciej Nebulo jest w stanie komunikować się z serwerem. To - na przykład - zwiększa szybkość przeglądania stron.</string>
     <string name="about_credits">Twórcy</string>
-    <string name="theme_true_black">Prawdziwie czarny</string>
+    <string name="theme_true_black">Czarny</string>
     <string name="theme_blue">Niebieski</string>
     <string name="theme_mono">Mono</string>
     <string name="theme_dark">Ciemny</string>
-    <string name="app_share_fdroid">Hej, znalazłem tę aplikację, która szyfruje zapytania DNS, aby dać ci więcej prywatności i bezpieczeństwa. Sprawdź ją, pobierając stąd: https://nebulo.app/source#installation</string>
+    <string name="app_share_fdroid">Hej, znalazłem aplikację, która szyfruje zapytania DNS, aby zapewnić Ci więcej prywatności i bezpieczeństwa. Sprawdź ją pobierając stąd: https://nebulo.app/source#installation</string>
     <string name="about_app">Ta aplikacja jest open source. Kod źródłowy jest dostępny pod adresem &lt;a href=https://nebulo.app/source&gt;nebulo.app/source&lt;/a&gt;.
 \nPonadto aplikacja nie zawiera reklam i nie śledzi ani nie zbiera żadnych danych o użytkowniku.
 \n
 \nWersja %1$s
 \nBuild %2$d
 \nWersja bazy danych %3$d
-\nCrashreport ID: %4$s
+\nID raportów awarii: %4$s
 \n
-\n© Daniel Wolf 2019
+\n© Daniel Wolf 2019-2020
 \nNa licencji GPLv3.
 \n&lt;a href=mailto:support@frostnerd.com&gt;support@frostnerd.com&lt;/a&gt;</string>
     <string name="error_invalid_host">Podaj prawidłowego hosta</string>
-    <string name="settings_import_succeeded">Import ustawień zakończono sukcesem.</string>
+    <string name="settings_import_succeeded">Import ustawień powiódł się.</string>
     <string name="settings_import_failed">Import ustawień nie powiódł się.</string>
 </resources>
