@@ -2,7 +2,7 @@
 <resources>
     <string name="menu_main">Status aplikacji</string>
     <string name="menu_settings">Ustawienia</string>
-    <string name="menu_querylogging">Logowane zapytania</string>
+    <string name="menu_querylogging">Zapytania zapisane w dzienniku</string>
     <string name="menu_create_shortcut">Stwórz skrót do serwera</string>
     <string name="menu_rate">Oceń</string>
     <string name="menu_about">O aplikacji</string>
