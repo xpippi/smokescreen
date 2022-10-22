@@ -50,7 +50,7 @@
     <string name="dialog_exportdnsrules_whitelist">Eksport reguł białej listy</string>
     <string name="dialog_exportdnsrules_nonwhitelist">Eksport zwykłych reguł</string>
     <string name="dialog_exportdnsrules_title">Eksport reguł DNS</string>
-    <string name="dialog_newdnsrule_wildcard_info">Host obsługuje wildcards. Użyj gwiazdki (*) jako dowolną ilość znaków, liczb i dozwolonych znaków specjalnych, z wyjątkiem kropki (.). Użyj dwóch gwiazdek (**), aby dołączyć kropkę (.).</string>
+    <string name="dialog_newdnsrule_wildcard_info">Host obsługuje wildcards (wieloznaczniki). Użyj gwiazdki (*) jako dowolną ilość znaków, liczb i dozwolonych znaków specjalnych, z wyjątkiem kropki (.). Użyj dwóch gwiazdek (**), aby dołączyć kropkę (.).</string>
     <string name="dialog_newdnsrule_ipv6_invalid">Proszę podać prawidłowy adres IPv6</string>
     <string name="dialog_newdnsrule_ipv4_invalid">Proszę podać prawidłowy adres IPv4</string>
     <string name="dialog_newdnsrule_hint_ipv6address">Adres IPv6</string>
@@ -108,7 +108,7 @@
     <string name="dialog_newhostsource_url">URL</string>
     <string name="dialog_newhostsource_choose_file">Wybierz plik</string>
     <string name="dialog_newhostsource_wildcard_info">Możesz korzystać z list hostów, które wykorzystują domeny typu wildcard.</string>
-    <string name="dialog_overlaydetected_title">Wykryto nakładanie się na cały system</string>
+    <string name="dialog_overlaydetected_title">Wykryto nakładkę względem całego systemu</string>
     <string name="dialog_newhostsource_name">Nazwa</string>
     <string name="dialog_newhostsource_title">Nowe źródło reguł</string>
     <string name="dialog_hostsourcerefresh_timeunit_weeks">Tygodnie</string>
@@ -118,9 +118,15 @@
     <string name="dialog_deletehostsource_title">Usunąć %1$s\?</string>
     <string name="dialog_speedtest_useserver_message">Czy chcesz korzystać z serwera %1$s\? Znalazł się on na pozycji %2$d w stosunku do %3$d z czasem odpowiedzi %4$d ms.</string>
     <string name="dialog_speedtest_useserver_title">Wybierz serwer</string>
-    <string name="dialog_speedresult_message" tools:ignore="PluralsCandidate">%1$d serwerów przetestowano.
+    <string name="dialog_speedresult_message" tools:ignore="PluralsCandidate">%1$d testowane serwery
 \n %2$d Serwery DoT osiągalne, %3$d nieosiągalne
 \n %4$d Serwery DoH osiągalne, %5$d nieosiągalne
+\n Średni czas odpowiedzi: %6d ms.
+\n
+\n Najszybszy serwer: %7$s
+\n Najwolniejszy serwer: %8$s
+\n Osiągalnych serwerów DoH: %2$d nieosiągalnych: %3$d
+\n Osiągalnych serwerów DoH: %4$d, nieosiągalnych: %5$d
 \n Średni czas odpowiedzi: %6$d ms.
 \n
 \n Najszybszy serwer: %7$s
@@ -171,8 +177,8 @@
     <string name="dialog_batteryoptimization_whitelist">Wyłącz</string>
     <string name="dialog_batteryoptimization_ignore">Ignoruj</string>
     <string name="dialog_batteryoptimization_title">Optymalizacja baterii</string>
-    <string name="dialog_speedtestpasses_message">Określ, jak często test powinien być przeprowadzany na poszczególnych serwerach. Większa częstotliwość zwiększa dokładność.</string>
-    <string name="dialog_speedtestpasses_title">Skonfiguruj przepustki testowe</string>
+    <string name="dialog_speedtestpasses_message">Określ, jak często test powinien być przeprowadzany na poszczególnych serwerach. Większa częstotliwość zwiększa dokładność</string>
+    <string name="dialog_speedtestpasses_title">Skonfiguruj przejścia testów</string>
     <string name="dialog_share_message">Które łącze chcesz udostępnić\?</string>
     <string name="dialog_share_title">Wybierz typ łącza</string>
     <string name="dialog_open_faq">Chcesz zapoznać się z często zadawanymi pytaniami i dokumentacją dotyczącą tej funkcji\?</string>
