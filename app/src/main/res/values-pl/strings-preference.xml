@@ -130,7 +130,7 @@
     <string name="title_show_notification_on_lockscreen">Pokazuj na ekranie blokady</string>
     <string name="title_fallback_dns">Wewnętrzny serwer DNS</string>
     <string name="summary_fallback_dns">Skonfiguruj wewnętrzny serwer DNS, którego używa Nebulo. Domyślnie jest to serwer DNS Twojego dostawcy Internetu. Ten serwer jest używany tylko do celów wewnętrznych i nie obsługuje zwykłych zapytań DNS.</string>
-    <string name="summary_language">Zmień języka aplikacji</string>
+    <string name="summary_language">Zmień język aplikacji</string>
     <string name="title_language">Język</string>
     <string name="title_excluded_apps">Wykluczone aplikacje</string>
     <string name="summary_start_after_update">Uruchom aplikację po jej aktualizacji</string>
